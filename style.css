@@ -1,0 +1,210 @@
+:root{
+    background-color: white;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucia Grande";
+}
+
+
+
+.container{
+    width: 100vw;
+    
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+    float: right;
+    color: #333;
+}
+
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.top-wrapper h1{
+    padding: 0.5rem;
+}
+
+.top-wrapper p{
+    color: #ccc;
+    padding: 0.5rem;
+}
+
+.top-wrapper{
+    margin-top: 5rem;
+}
+
+.right-side{
+    float: right;
+    margin-right: 5rem;
+}
+
+.bttn{
+    background-color: red;
+    padding: 0.5rem 0;
+    width: 10rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-left: 2rem;
+    border-radius: 5rem;
+
+}
+
+.btn{
+    padding: 0.5rem 0;
+    width: 8rem;
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5rem;
+    
+}
+
+#button{
+    margin-bottom: 5rem;
+}
+
+#button :hover{
+    cursor: pointer;
+
+}
+
+.third{
+    background-color: #f9f9f9;
+}
+
+h2{
+    padding: 0.5rem;
+}
+
+.butn{
+    background-color: red;
+    padding: 0.5rem 0;
+    width: 7rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial h2{
+    margin-bottom: 2rem;
+    
+
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 1.6rem;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .testimonial h2{
+      text-align: center;
+      
+  }
+
+  .img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+    width: 50%; /* half width */
+    padding: 1rem; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2rem; 
+    margin-left:1rem ; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .but{
+    background-color: red;
+    padding: 0.5rem 0;
+    width: 7rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+  }
+
+  .contactUs h2{
+      text-align: center;
+      margin-top: 2rem;
+  }
+
+  hr{
+      width: 5%;
+      margin: 0 auto;
+      padding: 0;
+      display: block;
+      border-bottom: 1px solid red;
+  }
+
+  .contactUs{
+      background-color: #f9f9f9;
+  }
